@@ -14,7 +14,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $alunos = new Alunos();
 
     // Adicionar o novo alunos no banco de dados
-    $alunos->mysqli($nome, $email);
+    $alunos->__construct($nome, $email);
 
     // Fechar a conexão
     $alunos->fecharConexao();
