@@ -11,7 +11,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 
     // Criar uma nova instância da classe Alunos
-    $alunos = new alunos();
+    $alunos = new Alunos();
 
     // Adicionar o novo alunos no banco de dados
     $alunos->adicionarAlunos($nome, $email);

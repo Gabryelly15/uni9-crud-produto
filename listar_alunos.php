@@ -3,7 +3,7 @@
 require_once 'db.php';
 
 // Instanciar a classe alunos
-$alunos = new alunos();
+$alunos = new Alunos();
 
 // Listar os alunoss
 $alunoss = $alunos->listaralunoss();

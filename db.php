@@ -1,6 +1,6 @@
 <?php
 
-class Produto {
+class Alunos {
     private $conn;   
     private $host = "mysql.jrcf.dev";
     private $db = "escola";
